@@ -1,0 +1,93 @@
+/* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+
+html {
+  font-size: 62.5%;
+  font-family: serif;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  word-spacing: 0.02em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+section h2 + p,
+section h3 + p {
+  text-indent: 1.25rem;
+}
+
+a:link {
+  color: #a66;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:visited {
+  color: #844;
+}
+
+a:hover,
+a:focus {
+  color: #c55;
+  text-decoration: none;
+}
+
+a:active {
+  color: #422;
+  background: #f6e9e7;
+  border-bottom: 2px solid #a66;
+}
+
+a.external::after {
+  content: " ↗";
+  font-size: 0.9em;
+  margin-left: 0.15em;
+}
+
+ul,
+ol {
+  margin: 1.2rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav a {
+  display: block;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid #a66;
+  background: #f8f4f3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #f0eaea;
+}
